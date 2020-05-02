@@ -56,6 +56,7 @@ while status:
             detail.append(password)
             container.append(detail)
             print(detail)
+
             password_loop = False
 
         else:
@@ -82,4 +83,3 @@ while status:
     else:
         status = True
         userNumber = userNumber + 1
-
